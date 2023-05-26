@@ -1,14 +1,14 @@
-name: thesillyhome addon dev lightningpicture
-version: "dev-5"
-slug: thesillyhome_dev
+name: KI Testing
+version: "testing"
+slug: KI Testing
 description: "this repo ist only for development"
 url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
 homeassistant_api: true
 init: false
 ports:
-  2300/tcp: 2300
+  2301/tcp: 2301
 ports_description:
-  2300/tcp: "Web interface (not required for Home Assistant ingress)"
+  2301/tcp: "Web interface (not required for Home Assistant ingress)"
 environment:
   HA_ADDON: "true"
 map:
