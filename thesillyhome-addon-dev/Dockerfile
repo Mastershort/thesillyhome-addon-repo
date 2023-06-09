@@ -1,1 +1,1 @@
-FROM lightningpicture/aarch64-thesillyhome-dev:dev-21
+FROM lightningpicture/aarch64-thesillyhome-dev:dev-24
