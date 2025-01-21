@@ -1,5 +1,5 @@
 name: thesillyhome addon dev lightningpicture
-version: "dev-41"
+version: "ndev-1"
 slug: thesillyhome_dev
 description: "this repo ist only for development"
 url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
@@ -48,4 +48,4 @@ schema:
   autotrain: bool
   autotrain_cadence: str
   startup_disable_all: bool
-image: "lightningpicture/aarch64-thesillyhome-dev:dev-41"
+image: "lightningpicture/aarch64-thesillyhome-dev:ndev-1"
