@@ -3,7 +3,6 @@ version: "ndev-20"
 slug: thesillyhome_dev
 description: "this repo ist only for development"
 url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
-webui: "http://[HOST]:[PORT:2300]/
 homeassistant_api: true
 init: false
 ports:
