@@ -4,11 +4,8 @@ slug: thesillyhome_dev
 description: "this repo ist only for development"
 url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
 homeassistant_api: true
+host_network: true
 init: false
-ports:
-  2300/tcp: 2300
-ports_description:
-  2300/tcp: "Web interface (not required for Home Assistant ingress)"
 environment:
   HA_ADDON: "true"
 map:
@@ -17,6 +14,8 @@ arch:
   - amd64
   - armv7
   - aarch64
+ingress: true
+ingress_port: 2300
 options:
   actuactors_id:
     - light.bathroom_lights
