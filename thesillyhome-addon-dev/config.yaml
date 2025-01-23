@@ -16,6 +16,7 @@ arch:
   - aarch64
 ingress: true
 ingress_port: 2300
+ingress_stream: true
 panel_icon: mdi:puzzle
 panel_title: Sillyhome
 options:
