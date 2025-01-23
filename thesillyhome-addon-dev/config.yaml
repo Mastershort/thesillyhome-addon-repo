@@ -15,9 +15,7 @@ arch:
   - armv7
   - aarch64
 ingress: true
-ingress_stream: true
-ports:
-  2300/tcp: null
+ingress_port: 2300
   
 
 panel_icon: mdi:puzzle
