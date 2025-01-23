@@ -17,7 +17,7 @@ arch:
 ingress: true
 ingress_stream: true
 ports:
-  2300/tcp:null
+  2300/tcp: null
   
 
 panel_icon: mdi:puzzle
