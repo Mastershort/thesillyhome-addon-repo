@@ -15,9 +15,11 @@ arch:
   - armv7
   - aarch64
 ingress: true
-ingress_port: 2300
 ingress_stream: true
-ingress_entry: /app.html
+ports:
+  2300/tcp:null
+  
+
 panel_icon: mdi:puzzle
 panel_title: Sillyhome
 options:
