@@ -1,4 +1,4 @@
-name: thesillyhome addon dev lightningpicture
+name: thesillyhome addon dev Mastershort
 version: "ndev-23"
 slug: thesillyhome_dev
 description: "this repo ist only for development"
@@ -15,7 +15,9 @@ arch:
   - armv7
   - aarch64
 ingress: true
-ingress_port: 2300
+ingress_port: 0
+panel_icon: mdi:puzzle
+panel_title: Sillyhome
 options:
   actuactors_id:
     - light.bathroom_lights
